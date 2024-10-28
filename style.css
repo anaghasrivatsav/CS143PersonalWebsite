@@ -1,0 +1,94 @@
+body{
+   
+    font-family:"Poppins", sans-serif;
+    background-color: rgb(235, 247, 251);
+}
+h1
+{
+    color:rgb(44, 44, 84);
+    text-align: center;
+}
+h2
+{
+    color:rgb(64, 84, 132);
+    text-align: center;
+}
+h3
+{
+    color:rgb(82, 125, 182);  
+}
+
+ol
+{
+    list-style-type: upper-roman;
+
+}
+span{
+    color:rgb(82, 125, 182);  
+    font-weight: 600;
+    
+}
+
+
+div>div>div
+{
+    outline: 10px solid rgb(209, 234, 240);
+    background-color: rgb(209, 234, 240);
+    display: inline-block; 
+    
+
+}
+img
+{
+    width:530px;
+    height:530px;
+}
+.photos
+{
+    text-align:center;
+    margin-left:1.5%;
+}
+#table
+{
+    text-align:center;
+}
+table
+{
+    width:100%;
+    background-color:rgb(235, 247, 251);
+}
+thead
+{
+    background-color: rgb(209, 234, 240);
+    color:rgb(63, 93, 132); 
+}
+tfoot
+{
+    color:rgb(16, 48, 108);
+    background-color: rgb(209, 234, 240);
+   
+}
+table,td, th
+{
+  
+    margin:0 auto;
+    border: 1px solid rgb(26, 91, 171);
+   
+
+}
+a:link:hover {
+    font-weight:bold;
+}
+a:visited{
+    color:rgb(0, 128, 255);
+}
+a:visited:hover{
+    color:rgb(0, 128, 255);
+    font-weight: bold; 
+    
+}
+
+footer{
+    text-align: center;
+
+}

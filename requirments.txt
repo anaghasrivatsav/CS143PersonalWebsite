@@ -1,0 +1,34 @@
+A <title> tag
+At least two <meta> tags
+ A favicon. Must be 16px x 16px or 32px x 32px with either 8-bit or 24-bit color.
+It can be a PNG, GIF (jiff?) but must be converted to an ICO named favicon.ico.
+ Some generators: http://www.favicon.cc/, http://www.dagondesign.com/tools/favicon-generator-tool/
+Headings at more than one level, with an <h1> formatted to make a nice looking title for the page(s). 
+Change the color of the title to something that is not the default. You can choose any color you want, as long as we can see it.
+Change the font family to something that is non-standard (no Helvetica, Times New Roman, Arial, sans-serif, serif, monospace etc.). You can find cool fonts here, but you will need to "hotlink" them rather than download them. You are not required to use these fonts.
+Change either the font style, or font variant. You can also do both if you wish.
+To repeat, you need to use at least two "h" tags. One of them must be <h1>.
+Several paragraphs of text. At least enough that allows you to meet all of the requirements.
+Your ability to use two layers of  an unordered list (<ul>) or an ordered list (<ol>). One layer can be ol and the other ul if you wish, or vice-versa, or they can both be ul or ol.
+The "marker" or "bullet" used for each list item in the innermost list must be changed to something that is not the default.
+Your ability to use CSS to control at least a few aspects of text rendering (e.g. color, font-style, text-align) on text within a paragraph and not just in the h1 element.
+Your ability to use a class attribute and a CSS class selector to style multiple elements with the same class (e.g. multiple paragraphs)
+At least one ID and an ID selector to style a single important element.
+At least one standard size image. 
+You will need to copy the image file (e,g. JPEG or PNG) into the same directory where your HTML and CSS files are, and link them appropriately. 
+The dimensions of the image should be close to the dimensions of the image on the web page (do not scale down a 1000x1000 image to 50x50, this is wasteful). You can use CSS to affect things like the size of the image. There are tutorials on the Web that can show you how to do this.
+The image must have alt text for accessibility reasons.
+At least two <div>s. Use CSS to provide some styling (e.g. borders, background). This must be something other than basic text formatting.
+At least one <span> to provide some inline styling for a few words of text.
+At least one <table>. Remember that tables are for displaying data, not for layout.
+The table must use the HTML5 tags <thead>, <tbody> and <tfoot> and there must be at least column headers (<th>). 
+You must style the header and footer differently from the body. See Lecture 3 demo for an example of what I mean, but please use a different style. Be creative here. Your style must target these tags rather than using ID and class everywhere. You may override styles if needed.
+You must use rowspan for at least two rows, and colspan for at least two columns. Data these days is too complex for cute little contingency tables.
+You will likely need to search the Web and use View Source to check out examples. This is perfectly normal and is expected of those that want to improve their skills.
+At least one class used on two or more of your tags and styled using a selector involving that class.
+At least one selector that uses >, + or ~.
+At least three links to other pages or external websites (more are great). 
+Something about the style of the link must change when the link is clicked on
+something about the style of the link must change when the link is hovered over either in the visited or not-yet-visited state.
+There must not be any CSS conflicts, though overriding inherited styles is permitted.
+Your work of art must be fully valid HTML5 and CSS, as demonstrated by the online W3C HTML Validator and the CSS validator.
